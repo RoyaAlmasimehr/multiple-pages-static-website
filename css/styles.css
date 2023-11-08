@@ -93,3 +93,18 @@ p {
   font-size: 25px;
   margin-bottom: 30px;
 }
+
+@media (max-with:700px){
+
+.col-sm-6{
+splay: flex;
+    justify-content:center;
+}
+
+
+
+
+
+}
+
+
