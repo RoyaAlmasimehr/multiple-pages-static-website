@@ -97,7 +97,7 @@ p {
   margin-bottom: 30px;
 }
 
-@media (max-with: 580px) {
+@media (max-with: 600px) {
   .col-sm-6 {
     display: flex;
     justify-content: center;
