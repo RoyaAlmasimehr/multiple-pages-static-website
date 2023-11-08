@@ -72,9 +72,12 @@ h3 {
   padding: 20px 15px;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
+  text-align: center;
+  color: white;
+  width: 100%;
 }
 .row {
-  margin: 70px;
+  margin: 60px;
 }
 
 p {
@@ -94,17 +97,9 @@ p {
   margin-bottom: 30px;
 }
 
-@media (max-with:700px){
-
-.col-sm-6{
-splay: flex;
-    justify-content:center;
+@media (max-with: 580px) {
+  .col-sm-6 {
+    display: flex;
+    justify-content: center;
+  }
 }
-
-
-
-
-
-}
-
-
