@@ -1,7 +1,95 @@
-body {
-  background-color: pink;
+:root {
+  --primary-color: #674083;
+  --border: 2px solid #674083;
+  --secondary-color: white;
+  --light-color: rgba(236, 208, 239, 0.4);
 }
 
-a{
-    color: white;
+.disc {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+h2 {
+  margin-top: 5%;
+}
+h3 {
+  opacity: 0.7 !important;
+}
+.port {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 5px;
+}
+
+.port a {
+  border: var(--border);
+  padding: 15px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 10px;
+}
+.contact {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.contact:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+.About:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.developer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.portfolio {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}
+.item1,
+.item2 {
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  background-color: var(--light-color);
+}
+.index {
+  margin-top: 20px;
+}
+#launch-app {
+  padding: 20px 15px;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+.row {
+  margin: 70px;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.abouteme {
+  margin-top: 30px;
+}
+.email {
+  font-size: 25px;
+  margin-bottom: 30px;
 }
